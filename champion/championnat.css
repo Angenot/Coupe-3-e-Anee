@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+h1{
+    
+    color:darkblue;
+    text-align: center;
+    text-transform: uppercase;
+}
+#part{
+    background-image:url('pays/tournoi.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+.coupe{
+    position:relative;
+    display:block;
+    color:white;
+    font-size:40px;
+    text-align:center;
+    text-transform: capitalize;
+    top:25%;
+}
+.champ{
+    position:relative;
+   display:block;
+    color:white;
+    font-size:55px;
+    text-align:center;
+    text-transform: capitalize; 
+    top:65%;
+}
+.bouton{
+    display:block;
+    background:darkblue;
+    width:80px;
+    height:40px;
+    border-radius:10%;
+    border:none;
+    cursor: pointer;
+    color:white;
+    font-size:20px;
+    margin-left:5%;
+    padding-left:4px;
+    padding-left:6px;
+    padding-top:6px;
+}
+#Table2,table{
+    width:700px;
+    box-shadow:-1px 12px 12px -6px rgba(0,0,0,0.5);
+    
+}
+#Table2{
+    margin-left:15%;
+    margin-top:4%;
+}
+#Table2 table,td,th{
+    padding:20px;
+    border:1px solid lightgray;
+    border-collapse:collapse;
+    text-align:center;
+}
+#Table3 table{
+    width:600px;
+    box-shadow:-1px 12px 12px -6px rgba(0,0,0,0.5);
+}
+#Table3{
+    margin-left:15%;
+    margin-top:2%;
+} 
+#Table3 table,td,th{
+     padding:15px;
+    border:1px solid lightgray;
+    border-collapse:collapse;
+    text-align:center;
+}
+#score{
+    background-image:url(pays/ligue-des-champions-12.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:40vh;
+}
+.scorer table,td,th{
+    padding:15px;
+    border:1px solid lightgray;
+    border-collapse:collapse;
+    text-align:center;
+}
+.acc{
+    background-image:url(pays/tournoi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    height:100vh;
+}
+.acc p{
+    position:relative;
+    display:block;
+    width:100px;
+    font-size:4rem;
+    color:white;
+    top:30%;
+    left:20%;
+    cursor:pointer;
+}
+.logout .deco{
+     position:relative;
+    display:block;
+    width:340px;
+    font-size:4rem;
+    background:blue;
+    padding:5px;
+    color:white;
+    bottom:10%;
+    left:20%;
+    cursor:pointer;
+    border-radius:5%;
+}
+.bloc_form{
+    max-width:400px;
+    box-shadow:-1px 12px 12px -6px rgba(0,0,0,0.5);
+    margin:20px auto;
+    background:white;
+   
+}
+.bloc_form form{
+    border:3px solid #f1f1f1;
+}
+ .bloc_input{
+    width:80%;
+}
+.corps{
+    background:darkblue;
+}
+.bout{
+    background-color:#04AA6D;
+    color:white;
+    padding:14px 20px;
+    border:none;
+    cursor:pointer;
+    margin-top:3%;
+}
+.bout:hover{
+    opacity:0.8;
+}
+.bloc_input input{
+    width:100%;
+    padding:12px 20px;
+    margin:8px 0;
+    display:inline-block;
+    border:1px solid #ccc;
+    outline:none;
+}
+h3{
+    text-align:center;
+    font-size:18px;
+    color:blue;
+}
+.incorrect{
+    font-size:18px;
+    color:white;
+    background-color:firebrick;
+    
+}
+.remp{
+    font-size:18px;
+    color:white;
+    background-color:firebrick;
+     
+}
+.aff{
+    display:block;
+    max-width:40%;
+    margin-left:10%;
+    margin-top:5%;
+        
+}
+
+.classement{
+    display:grid;
+    place-items:center;
+
+}
